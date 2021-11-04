@@ -50,7 +50,7 @@ export default function Categories() {
       }}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {items.map(item => (
-          <View style={{alignItems: 'center', marginRight: 30}} key={item.id}>
+          <View style={{alignItems: 'center', marginRight: 30}} key={item.key}>
             <Image
               source={item.image}
               style={{width: 60, height: 60, resizeMode: 'contain'}}
