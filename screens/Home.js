@@ -16,6 +16,9 @@ export default function Home() {
       <ScrollView showsVerticalScrollIndicator={false}>
         <Categories />
         <RestaurentItem />
+        <RestaurentItem />
+        <RestaurentItem />
+        <RestaurentItem />
       </ScrollView>
     </SafeAreaView>
   );
